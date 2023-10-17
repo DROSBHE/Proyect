@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;  
+    box-sizing: border-box;
+  } 
+
+body{
+    background-image: url('/allcars/img/suspe.jpg' );
+    background-size: cover;
+}
+
+.box{
+    width: 500px;
+    background: rgba(0,0,0,.4);
+    margin: 0 auto;
+    margin-top: 4%;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.box-img{
+    border-radius: 50%;
+    
+}
+
+.box h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+    margin: 30px 0 20px;
+    text-align: center;
+}
+
+.box h2{
+    font-size: 20px;
+    letter-spacing:  3px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.box p{
+    text-align: justify;
+}
+
+.box .botons{
+    width: 40%;
+    background: rgb(63, 34, 209);
+    border: none;
+    padding: 6px;
+    color: white;
+    margin: 12px 0;
+    font-size: 16px;
+}

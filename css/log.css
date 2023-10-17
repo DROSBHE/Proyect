@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;  
+    box-sizing: border-box;
+  } 
+
+
+body{
+    background-image: url('/allcars/banner.jpg');
+  }
+
+  .agregarauto{
+      width: 400px;
+      background-color: rgb(4, 56, 50);
+      padding: 30px;
+      margin: auto;
+      margin-top: 100px;
+      border-radius: 4px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      color: white;
+      box-shadow: 7px 13px 37px #000;
+  
+  }
+  .agregarauto h4{
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 20px;
+  }
+  
+  .controls{
+      width: 100%;
+      background-color: rgb(32, 84, 84);
+      padding: 10px;
+      border-radius: 4px;
+      margin-bottom: 16px;
+      border: 1px solid rgb(15, 40, 74);
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 18px;
+      }
+  
+  .agregarauto p{
+      height: 40px;
+      text-align: center;
+      font-size: 18px;
+  }
+  
+  .agregarauto a{
+      height: 40px;
+      text-decoration: none;
+  }
+  
+  .agregarauto a:hover {
+      height: 40px;
+      text-decoration: underline;
+  }
+  
+  .agregarauto .botons{
+      width: 100%;
+      background: rgb(63, 34, 209);
+      border: none;
+      padding: 12px;
+      color: white;
+      margin: 16px 0;
+      font-size: 16px;
+  
+  }

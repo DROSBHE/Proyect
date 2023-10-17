@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url("/bmw.jpg");
+    
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.container {
+    width: 90vw;
+    height: 100vh;
+    margin: 0 auto;
+    position: relative;
+}
+
+.chatbox {
+    width: 60%;
+    height: 325px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-top: 40px;
+    background: rgba(4, 87, 255, 0.411);
+    border-radius: 10px;
+    color: white;
+}
+
+.header {
+    background: #052bff;
+    padding: 20px;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.body {
+    
+    height: 100%;
+    width: 100%;
+    overflow-y: auto;
+    
+}
+
+.avail {
+    font-size: 12px;
+    padding: 0 20px;
+    padding-right: 30px;
+}
+
+.avail::after {
+    content: "";
+    display: inline-block;
+    background: rgb(4, 180, 4);
+    width: 10px;
+    height: 10px;
+    margin: 0 3px;
+    vertical-align: middle;
+    border-radius: 50%;
+}
+
+input {
+    height: 50px;
+    width: 100%;
+   
+}
+
+input[type="text"] {
+    padding: 0 10px;
+}
+
+input[type="submit"] {
+    height: 45px;
+    border: 0;
+    background: #052bff91;
+    font-weight: 500;
+    font-size: 17px;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.text{
+    background: #052bff91;
+    color: aliceblue;
+}
+
+.visible {
+    display: block;
+}
+
+.none {
+    display: none;
+}
+
+.me {
+    color: white;
+    font-family: cursive;
+    width: 55%;
+    height: auto;
+    padding: 10px;
+    margin: 5px;
+    background-color: #fd01d381;
+    border-radius: 10px;
+    float: right;
+    text-align: right;
+    display: block;
+}
+
+.alicia {
+    color: white;
+    font-family: cursive;
+    width: 50%;
+    height: auto;
+    padding: 10px;
+    margin: 5px;
+    background-color: #05ff1a91;
+    border-radius: 10px;
+    float: left;
+    text-align: left;
+    display: block;
+}
+
